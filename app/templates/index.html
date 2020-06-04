@@ -26,9 +26,10 @@
         <div class="row h-100 ">
             <div class="col-sm-2 offset-1 text-center darkme text-white">
                 <h1 class="font-weight-light mt-5">Tag My Location</h1>
-                <p class="lead">Un ejemplo para empezar</p>
+                <p class="lead">Show where you are</p>
                 <nav class="nav justify-content-center flex-column text-white">
-                    <a class="nav-link active" href="#">Active link</a>
+                    <!-- El link para logerarse con flask_user -->
+                    <a class="nav-link active" href="{{ url_for('user.login')}}">Login</a>
                     <a class="nav-link" href="#">Link</a>
                     <a class="nav-link disabled" href="#">Disabled link</a>
                 </nav>
